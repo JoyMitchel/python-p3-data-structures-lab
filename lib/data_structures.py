@@ -41,6 +41,9 @@ def print_spiciest_foods(spicy_foods):
 def get_average_heat_level(spicy_foods):
       total_heat = sum(food["heat_level"] for food in spicy_foods)
       count = len(spicy_foods)  
+      if count == 0:
+          return 0
+      return int(total_heat / count)
 
 def create_spicy_food(spicy_foods, spicy_food):
     pass
