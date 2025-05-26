@@ -24,7 +24,7 @@ def get_spiciest_foods(spicy_foods):
 
 
 def print_spicy_foods(spicy_foods):
-    pass
+    for food in spicy_foods:
 
 def get_spicy_food_by_cuisine(spicy_foods, cuisine):
     pass
